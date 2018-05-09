@@ -5,7 +5,7 @@
 reset
 
 #Tapenade directory NEEDS TO BE CHANGED TO LOCAL INSTALL
-set TAPENADE_HOME = /home/drholdaw/Programs/tapenade3.13/
+set TAPENADE_HOME = /home/gvernier/Adjoint/Tapenade/tapenade3.13/
 
 #Tapenade options
 set opts = "-tgtvarname _tl -tgtfuncname _tlm -adjvarname _ad -adjfuncname _adm"
