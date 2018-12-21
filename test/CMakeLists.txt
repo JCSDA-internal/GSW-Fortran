@@ -15,15 +15,10 @@ list( APPEND gsw_test_files
     gsw_check_functions.f90
 )
 
-# Create test executables
+# Create test executables and add tests
 foreach( test_file ${gsw_test_files} )
     string( REPLACE ".f90" "" test_name ${test_file} )
     add_executable( ${test_name} ${test_file} )
     target_link_libraries( ${test_name} gsw)
-endforeach( test_file ${gsw_test_files} )
-
-# Add tests
-foreach( test_file ${gsw_test_files} )
-    string( REPLACE ".f90" "" test_name ${test_file} )
     add_test( NAME ${test_name} COMMAND ${test_name} )
 endforeach( test_file ${gsw_test_files} )
