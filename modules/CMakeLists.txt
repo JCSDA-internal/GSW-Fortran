@@ -1,4 +1,4 @@
-set ( gsw_modules_files
+set( gsw_modules_files
     ${CMAKE_CURRENT_SOURCE_DIR}/gsw_mod_baltic_data.f90
     ${CMAKE_CURRENT_SOURCE_DIR}/gsw_mod_check_data.f90
     ${CMAKE_CURRENT_SOURCE_DIR}/gsw_mod_error_functions.f90
@@ -10,5 +10,4 @@ set ( gsw_modules_files
     ${CMAKE_CURRENT_SOURCE_DIR}/gsw_mod_specvol_coefficients.f90
     ${CMAKE_CURRENT_SOURCE_DIR}/gsw_mod_teos10_constants.f90
     ${CMAKE_CURRENT_SOURCE_DIR}/gsw_mod_toolbox.f90
-    PARENT_SCOPE
-)
+    PARENT_SCOPE )
