@@ -44,7 +44,7 @@ end type gsw_result_cast
 
 ! Different versions work for different compilers ... sigh.
 
-#ifdef __GFORTRAN__
+#ifndef __GFORTRAN__
 
 real (r8), dimension(cast_m,cast_n) :: ct
 data ct / &
