@@ -1,6 +1,6 @@
 set ( gsw_modules_files
     ${CMAKE_CURRENT_SOURCE_DIR}/gsw_mod_baltic_data.f90
-    ${CMAKE_CURRENT_SOURCE_DIR}/gsw_mod_check_data.f90
+    ${CMAKE_CURRENT_SOURCE_DIR}/gsw_mod_check_data.F90
     ${CMAKE_CURRENT_SOURCE_DIR}/gsw_mod_error_functions.f90
     ${CMAKE_CURRENT_SOURCE_DIR}/gsw_mod_freezing_poly_coefficients.f90
     ${CMAKE_CURRENT_SOURCE_DIR}/gsw_mod_gibbs_ice_coefficients.f90
