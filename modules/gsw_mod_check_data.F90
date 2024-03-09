@@ -42,7 +42,7 @@ type gsw_result_cast
     real (r8), dimension(cast_n) :: values
 end type gsw_result_cast
 
-! Different versions work for different compilers ... sigh.
+! Different versions work for different compilers .... sigh.
 
 #ifdef __GFORTRAN__
 
